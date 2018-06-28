@@ -31,7 +31,7 @@ class User extends Authenticatable
     }
 
     //Setting up relation with photos table
-    public function photos() {
+    public function photo() {
         return $this->belongsTo('App\Photo');
     }
 }
